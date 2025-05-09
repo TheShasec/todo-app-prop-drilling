@@ -1,0 +1,53 @@
+.panel {
+    grid-column: span 2;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 5px 10px 5px;
+}
+
+.panel-header {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.panel-options {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.option-p {
+    cursor: pointer;
+    transition: all linear 100ms;
+}
+
+.option-p:hover {
+    scale: 1.02;
+    transform: translate(5px);
+    color: #aad8ff;
+}
+
+.views {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+@media only screen and (max-width:800px) {
+    .views {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    footer{
+        margin-top: 10px;
+        text-align: center;
+    }
+}

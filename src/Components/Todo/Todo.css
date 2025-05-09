@@ -1,0 +1,43 @@
+.todo {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+    color: #fff;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-and-fav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icons {
+    font-size: 25px;
+}
+.update-form{
+    display: flex;
+    justify-content: start;
+}
+.update-input {
+    border-radius: 20px;
+    height: 20px;
+    padding-left: 10px;
+    outline: none;
+    border: 0;
+    transition: all linear 200ms;
+    box-shadow: 0 0 4px 1px rgba(56, 162, 255, 0.4);
+
+}
+
+.update-input,
+.update-input {
+    box-shadow: 0 0 6px 2px rgba(56, 162, 255, 0.6);
+}
