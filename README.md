@@ -19,7 +19,7 @@ This is a simple and clean React-based Todo App that uses **Prop Drilling** to m
 - UUID (for unique todo IDs)
 
 ## Folder Structure
-
+```
 src/
 │
 ├── Components/
@@ -31,7 +31,7 @@ src/
 ├── App.js
 ├── App.css
 └── index.js
-
+```
 ## Getting Started
 
 1. Clone the repo:
@@ -51,10 +51,6 @@ Run the app:
 Future Plans
 
     🔁 Rebuild this app using Redux (new repo: todo-app-redux)
-
-    🌐 Add online storage (e.g., Firebase or Supabase)
-
-    🧪 Add unit tests with Jest and React Testing Library
 
 Author
 
