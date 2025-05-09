@@ -36,18 +36,17 @@ src/
 
 1. Clone the repo:
 
-   ```bash
+```bash
    git clone https://github.com/yourusername/todo-app-prop-drilling.git
-
-    Install dependencies:
-   ```
-
-npm install
-
-Run the app:
-
-    npm start
-
+```
+2.Install dependencies:
+```bash
+   npm install
+```
+3.Run the app:
+```bash
+   npm start
+```
 Future Plans
 
     🔁 Rebuild this app using Redux (new repo: todo-app-redux)
