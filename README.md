@@ -56,9 +56,6 @@ Future Plans
 
     🧪 Add unit tests with Jest and React Testing Library
 
-Screenshots
-
-Add a screenshot here if you'd like.
 Author
 
     TheShasec
