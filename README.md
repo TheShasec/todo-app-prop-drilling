@@ -37,7 +37,7 @@ src/
 1. Clone the repo:
 
 ```bash
-   git clone https://github.com/yourusername/todo-app-prop-drilling.git
+   git clone https://github.com/TheShasec/todo-app-prop-drilling.git
 ```
 2.Install dependencies:
 ```bash
@@ -45,7 +45,7 @@ src/
 ```
 3.Run the app:
 ```bash
-   npm start
+   npm run dev
 ```
 Future Plans
 
